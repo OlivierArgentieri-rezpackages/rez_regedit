@@ -5,5 +5,5 @@ build_command = False
 requires = []
 
 def commands():
-    env.PATH.append("{root}/src")
- 
+    env.PATH.append("{root}")
+    env.PYTHONPATH.append("{root}")
